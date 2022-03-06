@@ -8,9 +8,9 @@ import { Observable } from 'rxjs';
 export class ChatService {
 
   constructor(private http:HttpClient) { }
-//<navn på interface fx. IChat>
+//<Name of interface e.g. IChat>
   GetAll():Observable<any>{
-    //Ikke den rigtige url
+    //TODO Find the correct URL
     return this.http.get("http://localhost/3000")
   }
 }
