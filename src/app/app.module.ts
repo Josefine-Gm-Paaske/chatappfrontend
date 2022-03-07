@@ -6,12 +6,16 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ChatComponent } from './chat/chat.component';
 import { UserComponent } from './user/user.component';
+import { BoardComponent } from './tic-tac-toe/board/board.component';
+import { SquareComponent } from './tic-tac-toe/square/square.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ChatComponent,
-    UserComponent
+    UserComponent,
+    BoardComponent,
+    SquareComponent
   ],
   imports: [
     BrowserModule,
