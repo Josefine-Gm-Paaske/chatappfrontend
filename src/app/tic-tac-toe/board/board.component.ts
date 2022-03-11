@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-board',
-  template: './board.component.html',
+  templateUrl:'./board.component.html',
   styleUrls: ['./board.component.scss']
 })
 export class BoardComponent implements OnInit {
