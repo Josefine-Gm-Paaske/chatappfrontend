@@ -11,6 +11,6 @@ export class UserService {
 //<Name of interface e.g. IUser>
   GetAll():Observable<any>{
     //TODO Find the correct URL
-    return this.http.get("http://localhost/3000")
+    return this.http.get("http://localhost/7273")
   }
 }
